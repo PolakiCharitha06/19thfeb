@@ -1,0 +1,11 @@
+def isprime(a,b):
+    for i in range(a,b):
+        if a%i==0:
+            return False
+        return True
+a,b=input().split()
+for i in range(a,b+1):
+    if isprime(a,b):
+        count=count+1
+print(count)        
+ 
